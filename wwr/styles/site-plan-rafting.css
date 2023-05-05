@@ -1,15 +1,15 @@
 @import url('https://fonts.google.com/specimen/Merriweather?category=Serif');
 :root{
 
---primary-color:var(--black)
---secondary-color:var(--red)
---accent-color1:var(--lavender)
---accent-color2:var(--blue)
---heading-font:ITC Arial;
---paragraph-font:Times,serif;
---nav-background-color:var(--midnight blue)
---nav-link-color:var(--olive)
---nav-hover-background-color:var(--soft orange)
+--primary-color:var(--primary-color)
+--secondary-color:var(--primary-color)
+--accent-color1:var(--primary-color)
+--accent-color2:var(--primary-color)
+--heading-font:var(--primary-color)
+--paragraph-font:var(--primary-color)
+--nav-background-color:var(--primary-color)
+--nav-link-color:var(--primary-color)
+--nav-hover-background-color:var(--primary-color)
 
 }
 header{
