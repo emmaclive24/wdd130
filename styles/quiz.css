@@ -1,33 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-body{
-    font-family: Georgia, serif;
+
+body {
+    font-family: 'Roboto', sans-serif; 
     font-size: 1.2em;
-    background: #D3D3D3;
-
-
+    color: #333;
+    background: #fff;
 }
-h1{
-    display: flex;
-    justify-content: center;
+h1 {
+    padding-left: 10.3%;
 }
 
-legend{
-    margin: 1rem;
-}
-
-form{
-    width: 650px;
+header {
     margin: 0 auto;
-    border: 2px solid rgba(0, 0, 0, .1);
-    border-radius: .5rem;
-    background-color: rgb(205, 227, 255);
-    padding: 1rem;
+    width: 650px;
 }
 
+form {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background:rgb(221, 148, 214);
+    display: grid;
+}
 
+label {
+    text-align: left;
+    padding-left: 1rem;
+}
 
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color:rgb(98, 0, 255);
+    color:black;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(102, 202, 219);
+}
+
+img {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 0px 0px 20px 0px
+}
